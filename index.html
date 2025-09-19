@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <title>Font → Skeleton (minimal)</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts per UI -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <div id="canvas-area"></div>
+    <div class="resizer" title="Trascina per ridimensionare"></div>
+    <div id="ui-panel-area"></div>
+  </div>
+
+  <!-- Librerie (metti p5.min.js in libs/) -->
+  <script src="libs/p5.min.js"></script>
+  <!-- Se vuoi usare la tua libreria TraceSkeleton, mettila in libs/ ed includila qui (opzionale) -->
+  <script src="libs/trace_skeleton.vanilla.js"></script>
+
+  <!-- Sketch (solo questo una volta) -->
+  <script src="sketch.js"></script>
+</body>
+</html>
